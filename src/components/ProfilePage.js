@@ -7,7 +7,7 @@ function ProfilePage() {
     const [userDetails, setUserDetails] = useState({ username: '', email: '', phone_number: '', orders: [] });
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
-    const API_URL = 'https://easydine2024-1788.onrender.com/';
+    const API_URL = 'https://easydine202434.onrender.com/';
     const navigate = useNavigate();
 
     const userID = sessionStorage.getItem('user_id');

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 // Define API_URL
-const API_URL = 'https://easydine2024-1788.onrender.com/';
+const API_URL = 'https://easydine202434.onrender.com/';
 
 const roomServicePageStyles = {
   container: {

@@ -1,8 +1,8 @@
 import axios from 'axios';
 
 // Define the base URL for the API
-const API_URL = 'https://easydine2024-1788.onrender.com/'; // or the URL where your Flask app is hosted
-axios.defaults.baseURL = 'https://easydine2024-1788.onrender.com/';
+const API_URL = 'https://easydine202434.onrender.com/'; // or the URL where your Flask app is hosted
+axios.defaults.baseURL = 'https://easydine202434.onrender.com/';
 // Place a special order
 export const placeSpecialOrder = async (request) => {
     try {

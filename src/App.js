@@ -27,7 +27,7 @@ function App() {
 
   useEffect(() => {
     // Make an authenticated request to fetch user data
-    axios.get('https://easydine2024-1788.onrender.com//user') // Replace with your actual API endpoint
+    axios.get('https://easydine202434.onrender.com//user') // Replace with your actual API endpoint
       .then((response) => {
         setUser(response.data);
       })
