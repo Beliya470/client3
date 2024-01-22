@@ -15,7 +15,7 @@ function AuthPage() {
 
     
 
-    const API_URL = 'http://localhost:8000';
+    const API_URL = 'https://backend-uism.onrender.com';
 
     const handleSubmit = async (event) => {
         event.preventDefault();

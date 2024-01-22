@@ -7,7 +7,7 @@ function ProfilePage() {
     const [userDetails, setUserDetails] = useState({ username: '', email: '', phone_number: '', orders: [] });
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
-    const API_URL = 'http://localhost:8000';
+    const API_URL = 'https://backend-uism.onrender.com';
     const navigate = useNavigate();
 
     const userID = sessionStorage.getItem('user_id');
