@@ -122,7 +122,7 @@ const handleBookingSubmission = async (event) => {
     document.getElementById('available-rooms-section').scrollIntoView({ behavior: 'smooth' });
   };
 
-  const API_URL = 'https://backend-uism.onrender.com';
+  const API_URL = 'https://easydine2024-1788.onrender.com/';
   // In BookingPage.js
 const handleFetchRooms = () => {
   const token = sessionStorage.getItem('jwt_token'); // Retrieve token from storage

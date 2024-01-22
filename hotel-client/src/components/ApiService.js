@@ -1,6 +1,6 @@
 // import axios from 'axios';
 
-// const API_URL = 'https://backend-uism.onrender.com';
+// const API_URL = 'https://easydine2024-1788.onrender.com/';
 
 // const ApiService = {bookings
 //     fetchAdminBookings() {

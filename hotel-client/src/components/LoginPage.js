@@ -15,7 +15,7 @@ function AuthPage() {
 
     
 
-    const API_URL = 'https://backend-uism.onrender.com';
+    const API_URL = 'https://easydine2024-1788.onrender.com/';
 
     const handleSubmit = async (event) => {
         event.preventDefault();

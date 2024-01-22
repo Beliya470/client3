@@ -57,7 +57,7 @@ function SpecialOrderPage() {
   const [confirmation, setConfirmation] = useState(''); // New state for confirmation message
   const navigate = useNavigate();
 
-  const API_URL = 'https://backend-uism.onrender.com/special-order';
+  const API_URL = 'https://easydine2024-1788.onrender.com//special-order';
 
   const handleSubmit = async (e) => {
     e.preventDefault();
